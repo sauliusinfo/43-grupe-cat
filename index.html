@@ -7,16 +7,27 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CAT</title>
+        <link rel="stylesheet" href="./css/main.css">
     </head>
 
-    <body style="background-color: blueviolet;">
-        <main style="background-color: bisque; width: 50%; margin-left: 25%; margin-top: 5%;">
-            <div>
-                <h1 style="font-size: 75px; color: blue;">404</h1>
-                <p style="font-size: 30px; color: black; text-transform: uppercase; font-weight: bold;">Ooops!</p>
-                <a href="#">Go to home</a>
+    <body>
+        <header class="container main-header">
+            <img class="logo" src="./img/logo.png" alt="Logo">
+            <nav class="main-nav">
+                <a class="link" href="#">Home</a>
+                <a class="link" href="#">Products</a>
+                <a class="link" href="#">About Us</a>
+                <a class="link" href="#">Contact Us</a>
+            </nav>
+        </header>
+        <main class="container main-content">
+            <div class="left-column">
+                <h1 class="title"><span>404</span>Oops!</h1>
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt facere delectus asperiores.</p>
+                <a class="btn" href="#">home</a>
+                <a class="btn" href="#">back</a>
             </div>
-            <img style="width: 50%; height: 50%;" src="./img/cat.png" alt="">
+            <img class="main-image" src="./img/cat.png" alt="Cat">
         </main>
     </body>
 
