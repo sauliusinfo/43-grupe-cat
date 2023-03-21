@@ -1,0 +1,30 @@
+.main-header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.logo {
+    height: 40px;
+    width: 100px;
+    object-fit: contain;
+    object-position: left;
+}
+
+.main-nav {
+    display: flex;
+    gap: 30px;
+}
+
+.main-nav > .link {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.main-nav > .link:hover {
+    text-decoration: underline;
+}
